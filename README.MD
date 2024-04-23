@@ -467,15 +467,13 @@ Book which gives a good understanding of marshaling in C#.
 https://app.box.com/s/oqihv7z1od
 
 
-**Here is the list of helpful tools:**
-SWIG - The tool to automatically generate C# wrappers for C/C++ libraries
-Dylibbundler - OSX app to collect dependencies on lib and fix paths
-PatchELF - Linux tool to change paths in ELF
-Otool (OSX) -OSX tool to check dependencies
-Ldd - Linux tool to check dependencies
+### Here is the list of helpful tools:
 
-And some tips which I'm often using, for example when I need to build some libraries for OSX , 
-but I'm not sure how, or don't know the exact flags to use, I often using drew repositories to find the clues.
+SWIG - The tool to automatically generate C# wrappers for C/C++ libraries
+
+### Tips:
+And some tip which I'm often using, when I need to build some libraries for OSX , 
+but I'm not sure how, or don't know the exact flags to use, I often using "brew" repositories to find the clues.
 
 For example I built opencv runtimes for OSX arm, and I went to https://formulae.brew.sh/formula/opencv opencv page.
 There is usually a link to formula in this case here https://github.com/Homebrew/homebrew-core/blob/651ab1c2c5e65bdcf080d994d143451135f5f920/Formula/o/opencv.rb
