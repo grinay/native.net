@@ -459,6 +459,7 @@ MSBuild version 17.7.4+3ebbd7c49 for .NET
 
 So now we now how to build and deliver our libs. 
 If you're going to deliver it as nuget packages, you're doing absolutely the same way, copy native libs into the runtimes folder and set DllImportResolver in your code for the cases when runtimes folder didn't work as expected.
+You can take a look at some examples in the repo https://github.com/grinay/osx_arm_builds , I did for libs I'm using. 
 
 # Some additional notes.
 Some useful links and tools which may help you to work with native libraries.
